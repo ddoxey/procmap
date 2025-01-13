@@ -1,0 +1,9 @@
+{
+    "processes": [
+        "process_one",
+        "process_two",
+        "process_three",
+        "process_four",
+        "process_five"
+    ]
+}

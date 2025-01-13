@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+#cy {
+    width: 95%; /* Take the full width of the parent container */
+    height: 85%; /* Take the full height of the parent container */
+    margin: 10px; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    border: 1px solid #ccc; /* Optional: For debugging */
+    border-radius: 8px;
+    box-sizing: border-box; /* Ensure padding and borders are included in width/height */
+}
+
+#cy div {
+    text-align: left;
+}
+
+#cy-container {
+    width: 80%; /* Example width: 80% of the viewport or parent */
+    height: 500px; /* Example height: Fixed or relative */
+    margin: 0 auto; /* Center the container horizontally */
+    position: relative; /* Ensure the position context is correct */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
